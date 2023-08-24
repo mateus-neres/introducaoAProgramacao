@@ -21,4 +21,4 @@ while numero > 0 and numero <= 100:
         print(f'Contagem {contagem}')
         print(f'A media entre os pares é {somar_par:.0f}')
     numero = int(input('Digite um número: '))
-print('Sair')    
+print('Sair')
