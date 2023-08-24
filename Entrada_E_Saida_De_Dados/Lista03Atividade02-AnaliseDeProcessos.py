@@ -5,3 +5,18 @@ quantos minutos ela leva para analisar cada processo, e exiba o total de process
 dia de trabalho. (Dica: Uma hora tem 60 minutos, e considere que um processo não pode ser
 analisado parcialmente, apenas totalmente)
 '''
+
+# Entrada de dados:
+
+diariaEmHoras = 8
+horaEmMinutos = 60
+diasEmMinutos = diariaEmHoras * horaEmMinutos
+analiseEmMinutos = int(input('Digite, quantos minutos Betina leva para analizar um processo? '))
+
+# Tratamento de dados:
+
+qtdProcessos = diasEmMinutos // analiseEmMinutos
+
+#Saida de dados:
+
+print('A quantidade de processos que Betina consegue analisar em um dia de trabalho é {}.'.format(qtdProcessos))
