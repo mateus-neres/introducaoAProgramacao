@@ -24,7 +24,8 @@ while qtd_veiculo != 555:
        casa += 1
        print(f'O valor da multa da casa {casa} é de R${multa_mensal:.2f}.')
        qtd_veiculo = int(input('Quantos veículos tem em sua residência: '))
-       
-    qtd_veiculo = int(input('Quantos veículos tem em sua residência: '))
-    casa += 1   
+    else:   
+        qtd_veiculo = int(input('Quantos veículos tem em sua residência: '))
+        casa += 1   
+
 print(f'O valor arrecadado total é de: R${total_arrecadado:.2f}.')
