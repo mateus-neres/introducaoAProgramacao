@@ -13,3 +13,9 @@ por um cliente, e a quantidade de páginas para copiar ou de folhas para encader
 deverá também calcular e exibir o valor total a ser pago. Observe que, caso o usuário opte por xérox,
 será necessário receber como entrada também o tipo de xérox (PB ou colorida).
 '''
+
+xerox_preto_branco = 0.06
+xerox_colorida = 0.29
+encadernacao_ate_100_folhas = 2.00
+encadernacao_mais_de_100_folhas = 4.00
+
