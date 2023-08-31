@@ -14,7 +14,7 @@ numero = int(input('Digite um número: '))
 
 # Tratamento de dados:
 
-while numero > 0 and numero <= 100:
+while numero != 100:
     if numero % 2 == 0:
         contagem = contagem + 1
         somar_par = (somar_par + numero) / contagem
