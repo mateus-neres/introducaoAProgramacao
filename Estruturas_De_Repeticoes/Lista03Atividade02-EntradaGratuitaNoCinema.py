@@ -5,3 +5,13 @@ cada pessoa que foi ao cinema até que o usuário não deseje mais informar dado
 de pessoas que tiveram entrada gratuita. (Obs: as entradas da tabela indicam a idade e a resposta do
 usuário a cada repetição)
 '''
+
+cont = 0
+controle = 'SIM'
+
+while controle == 'SIM':
+    idade = int(input('Digite a idade: '))
+    if idade <= 10 or idade > 60:
+        cont += 1
+    controle = str.upper(input('Deseja continuar, sim ou não? '))
+print(f'Tiveram {cont} pessoas com entrada gratuita')
