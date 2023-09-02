@@ -6,11 +6,13 @@ na compra de qualquer relógio, escreva um programa que receba como entrada os d
 escolhido por Elza (tipo e material), e exiba o valor a ser pago e uma mensagem informando se ela
 ganhou o brinde ou não.
 '''
+# Variaveis:
 
 bolsa_couro = 180
 bolsa_tecido = 100
 relogio_metal = 215
 relogio_couro = 150
+
 
 tipo = str.upper(input('Digite o tipo de presente, relogio ou bolsa: '))
 

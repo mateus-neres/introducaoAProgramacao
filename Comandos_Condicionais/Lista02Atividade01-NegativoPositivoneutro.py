@@ -5,15 +5,17 @@ Lembrete: Os números maiores que zero são chamados de positivos, enquanto os
 números menores que zero são os negativos. Zero é um número neutro.
 '''
 
-# Entrada de Dados:
+# Entrada de dados
 
-numero = int(input('Digite um número: '))
+num = int(input('Digite um númeor: '))
 
-# Tratamento de dados:
+# Tratamento de dados
 
-if numero > 0:
-    print(f'O número {numero} é positivo!')
-elif numero < 0:
-    print(f'O número {numero} é negativo!')
-else:
-    print(f'O número {numero} é neutro!')
+if num > 0:  # Comando Condição
+    print('positivo') # Saida de dados
+
+elif num < 0:  # Comando Condição
+    print('negativo') # Saida de dados
+
+else:  # comando Condição
+    print('neutro') # Saida de dados

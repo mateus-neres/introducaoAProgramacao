@@ -9,9 +9,10 @@ o resto for zero. Caso contrário, ele será ímpar.
 
 numero = int(input('Digite um número inteiro: '))
 
-# tratamento de dados:
+# tratamento de dados
 
-if numero % 2 == 0:
-    print(f'O númeor {numero} é par.')
+if numero % 2 == 0: # Condição
+    print(f'O númeor {numero} é par.') #Saida de dados
+
 else:
-    print(f'O número {numero} é impar.')
+    print(f'O número {numero} é impar.') # Saida de dados
