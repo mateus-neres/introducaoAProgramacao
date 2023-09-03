@@ -6,19 +6,27 @@ b. a quantidade total de alunos aprovados (média igual ou superior a 8.0)
 c. a média geral da turma
 d. a maior média obtida
 '''
-
+# Variaveis
 cont=0
 totalAlunos = 0
 maiorMedia = 0
 mediaGeral = 0
 alunosAprovados = 0
+
+# Estutura de repetição
 while(cont!=4):
+
+    # Entrada de daods
     nota1=float(input("nota 1: "))
     nota2=float(input("nota 2: "))
     nota3=float(input("nota 3: "))
     nota4=float(input("nota 4: "))
+    
+    # Tratamento de dados
     media=(nota1+nota2+nota3+nota4)/4
     mediaGeral+=media
+
+    # Comando condicional
     if(media>=8):
         print(f"Aluno Aprovado com media {media:.2f}")
         alunosAprovados +=1
@@ -30,6 +38,7 @@ while(cont!=4):
     cont+=1
 resultadoMediaGeral = mediaGeral / cont
 
+# Saida de dados
 print(f"AlunosAprovados: {alunosAprovados}")
 print(f"Media da turma: {resultadoMediaGeral:.2f}")
 print(f"Maior Media Obtida: {maiorMedia:.2f}")
