@@ -18,4 +18,3 @@ xerox_preto_branco = 0.06
 xerox_colorida = 0.29
 encadernacao_ate_100_folhas = 2.00
 encadernacao_mais_de_100_folhas = 4.00
-
