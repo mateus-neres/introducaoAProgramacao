@@ -6,39 +6,35 @@ b. a quantidade total de alunos aprovados (média igual ou superior a 8.0)
 c. a média geral da turma
 d. a maior média obtida
 '''
-# Variaveis
-cont=0
-totalAlunos = 0
+
+notaTotalTurma = 0
 maiorMedia = 0
-mediaGeral = 0
+mediaTurma = 0
+mediaAluno = 0
 alunosAprovados = 0
+contadorNotas = 0
+contadorAluno = 0
+notaTotal = 0
 
-# Estutura de repetição
-while(cont!=4):
-
-    # Entrada de daods
-    nota1=float(input("nota 1: "))
-    nota2=float(input("nota 2: "))
-    nota3=float(input("nota 3: "))
-    nota4=float(input("nota 4: "))
-    
-    # Tratamento de dados
-    media=(nota1+nota2+nota3+nota4)/4
-    mediaGeral+=media
-
-    # Comando condicional
-    if(media>=8):
-        print(f"Aluno Aprovado com media {media:.2f}")
-        alunosAprovados +=1
-        if(maiorMedia<media):
-            maiorMedia = media
-
+while contadorAluno < 4:
+    while contadorNotas < 4:
+        nota = float(input("Digite a nota: "))
+        notaTotal += nota
+        contadorNotas += 1
+    mediaAluno = notaTotal / 4
+    if mediaAluno >= 8:
+        print(f'O aluno teve media {mediaAluno:.2f} e foi aprovado.')
+        alunosAprovados += 1
     else:
-        print(f"Aluno reprovado com media {media:.2f}")
-    cont+=1
-resultadoMediaGeral = mediaGeral / cont
+        print(f"O aluno teve media {mediaAluno:.2f} e foi reprovado.")
+    if mediaAluno > maiorMedia:
+        maiorMedia = mediaAluno
+    notaTotalTurma += mediaAluno
+    notaTotal = 0
+    contadorNotas = 0    
+    contadorAluno += 1
+mediaTurma = notaTotalTurma / 4
 
-# Saida de dados
-print(f"AlunosAprovados: {alunosAprovados}")
-print(f"Media da turma: {resultadoMediaGeral:.2f}")
-print(f"Maior Media Obtida: {maiorMedia:.2f}")
+print(f"Alunos aprovados:{alunosAprovados}")
+print(f"Média da turma: {mediaTurma:.2f}")
+print(f"Maior média obtida: {maiorMedia:.2f}")
