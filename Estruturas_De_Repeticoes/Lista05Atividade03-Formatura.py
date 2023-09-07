@@ -30,14 +30,15 @@ while variavel_Controle == "SIM":
 
     if convidados > convidados_inclusos:
         senhas_Extra = (convidados - convidados_inclusos - convidados_eliminados) * 42
-    variavel_Controle = str.upper(input("Deseja continuar, sim ou não? "))
-    
     if convidados > limite_Convidado:
         contador_pessoas += convidados - convidados_eliminados + 1
     else: 
         contador_pessoas += convidados + 1
+    variavel_Controle = str.upper(input("Deseja continuar, sim ou não? "))
+    
     while variavel_Controle != "SIM" and variavel_Controle != "NÃO":
         print("Digite apenas 'sim' para continuar ou 'não' para encerrar.")
         variavel_Controle = str.upper(input("Deseja continuar, sim ou não? "))
+        
 print(f"Total a ser pago por senhas extras R${senhas_Extra:.2f}")
 print(f"Total de participante {contador_pessoas}")
