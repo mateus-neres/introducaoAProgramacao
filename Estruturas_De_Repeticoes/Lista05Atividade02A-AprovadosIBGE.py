@@ -10,17 +10,20 @@ português e em matemática, e também a nota na redação, e depois exiba quant
 entrada de dados deve ser encerrada quando for informada uma quantidade de questões de português negativa.
 '''
 
-aprovadoPt = 40 # 80% de 50 == 40
-aprovadoMat = 21 # 60% de 35 == 21
-contador = 0
-portugues = int(input("Digite a quantidade de questões acertadas em portugês: "))
-while portugues >= 0:
-    matematica = int(input("Digite a quantidade de questões acertadas em matematica: "))
-    notaredacao = float(input("Digite a nota em redação: "))
-    
-    if portugues >= aprovadoPt and matematica >= aprovadoMat and notaredacao >= 7:
-        contador += 1
-    portugues = int(input("Digite a quantidade de questões acertadas em portugês: "))
-print(f"Foram aprovados {contador}")
+aprovadoPT = 40
+aprovadoMat = 21
+aprovadoRed = 7
+contAprovado = 0
+
+portugues = int(input("Digite a quantidade de acertos em português: "))
+while portugues >= 0:    
+    matematica = int(input("Digite a quantidade de acertos em matemática: "))
+    redacao = float(input("Digite a nota em redação: "))
+    portugues = int(input("Digite a quantidade de acertos em português: "))
+    if portugues >= aprovadoPT:
+        if matematica >= aprovadoMat:
+            if redacao >= aprovadoRed:
+                contAprovado += 1
+print(contAprovado)
 
 
