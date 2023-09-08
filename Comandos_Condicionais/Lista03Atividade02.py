@@ -14,7 +14,29 @@ deverá também calcular e exibir o valor total a ser pago. Observe que, caso o 
 será necessário receber como entrada também o tipo de xérox (PB ou colorida).
 '''
 
+# Variaveis
+
 xerox_preto_branco = 0.06
 xerox_colorida = 0.29
 encadernacao_ate_100_folhas = 2.00
 encadernacao_mais_de_100_folhas = 4.00
+
+servico = str.upper(input("Digite o tipo de serviço, xérox ou encadernação: "))
+folhas = int(input("Digite a quantidade de folhas: "))
+
+if servico == "XÉROX" or servico == "XEROX":
+    preto_branco = str.upper(input("Deseja a xérox PB ou colorida: "))
+    if preto_branco == "PB":
+        valor_pago = folhas * xerox_preto_branco
+    else:
+        valor_pago = folhas * xerox_colorida
+elif servico == "ENCADERNAÇÃO" or servico == "ENCADERNAÇAO":
+    if folhas <= 100:
+        valor_pago = encadernacao_ate_100_folhas
+    else:
+        valor_pago = encadernacao_mais_de_100_folhas
+
+print(f"{valor_pago:.2f}")
+
+
+
