@@ -13,3 +13,7 @@ como entrada o combustível escolhido e o valor em dinheiro que se deseja gastar
 combustível abastecido e uma mensagem indicando se o cliente ganhou ou não a troca de óleo.
 '''
 
+gasolina = 2.53
+etanol = 2.09
+diesel = 1.
+
