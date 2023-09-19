@@ -5,3 +5,4 @@ amigos e conhecidos para comprar material de higiene e alimentos.
 Escreva um programa que receba como entrada os valores doados pelos 20 amigos de Luana, e
 calcule e exiba o valor arrecadado para cada velhinho.
 '''
+
