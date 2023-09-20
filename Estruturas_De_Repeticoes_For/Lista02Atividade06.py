@@ -9,3 +9,5 @@ mostrar que ele está se esforçando, cada nota terá que ser superior à anteri
 Escreva um programa que receba como entrada as 6 notas do filho de Talita e exiba uma
 mensagem informando se ele ganhará brinquedo ou não.
 '''
+
+
