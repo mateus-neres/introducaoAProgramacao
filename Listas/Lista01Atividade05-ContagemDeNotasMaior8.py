@@ -7,7 +7,7 @@ listaNota = []
 contNota = 0
 for i in range(5):
     nota = float(input("Digite a nota: "))
-    listaNota += [nota]
+    listaNota.append(nota)
     if nota > 8:
         contNota += 1
 print(f"Quantidade de notas maiores que 8: {contNota}")

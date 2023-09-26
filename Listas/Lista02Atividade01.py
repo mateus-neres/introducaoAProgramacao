@@ -9,7 +9,7 @@ for i in range(15):
     listaLetra = ["a","b","g","g","j","y","y","y","y","k","l","t","e","e","e",]
     letra = listaLetra[i]
     lista += [letra]
-    contador = set(lista)
+    contador = lista.count("y")
     
 
 print(letra)

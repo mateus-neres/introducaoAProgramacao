@@ -7,8 +7,8 @@ lista = []
 lista_Multiplos = []
 for i in range (8):
     numero = int(input("Digite um número intenrio: "))
-    lista += [numero]
+    lista.append(numero)
     if numero % 3 == 0:
-        lista_Multiplos += [numero]
+        lista_Multiplos.append(numero)
 print(lista)
 print(f"Dentre os números digitados, os seguintes são multiplos de 3, {lista_Multiplos}.")

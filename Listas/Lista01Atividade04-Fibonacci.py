@@ -8,9 +8,9 @@ lista = []
 listaSoma = []
 for i in range(5):
     numero = int(input("Digite um numero inteiro: "))
-    lista += [numero]
+    lista.append(numero)
     if i >= 1:
-        listaSoma += [lista[i] + lista[i-1]]
+        listaSoma.append(lista[i] + lista[i-1])
 listaSoma.append(lista[-1])
 print(lista)
 print(listaSoma)
