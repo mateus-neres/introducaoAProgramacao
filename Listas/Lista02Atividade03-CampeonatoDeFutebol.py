@@ -14,12 +14,13 @@ Esse programa deverá também exibir:
 # Listas de testes 
 times = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o",]
 estados = ["BP","PE","RJ","SP","MG","PB","PE","MG","RJ","SP","RJ","PB","RJ","SP","MG"]
-ponto = ["101","120","90","80","200","140","110","130","125","112","110","50","80","98","100"]
+ponto = [101,120,90,80,200,140,110,130,125,112,110,50,80,98,100]
 
 # variaveis de controle
 maior_ponto = 0
 soma_Ponto_RJ = 0
 cont_RJ = 0
+indice_maior_ponto = 0
 
 # Listas de registros de dados
 lista_times = []
