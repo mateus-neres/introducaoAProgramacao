@@ -5,9 +5,18 @@ exiba o menor deles:
 
 
 lista = []
+
 for indice in range(5):
+    print(f"{indice}º repetição")
     numero = int(input("Digite um número inteiro: "))
     lista.append(numero)
-lista.sort()
+    
+menorNumero = lista[0]
+print(menorNumero)
+
+for numero in lista:
+    if numero < menorNumero:
+        menorNumero = numero
+
 print(lista)
-print(f"O menor número informado é {lista[0]}")
+print(f"O menor número informado é {menorNumero}")
