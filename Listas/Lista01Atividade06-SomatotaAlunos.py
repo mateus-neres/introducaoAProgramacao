@@ -3,11 +3,13 @@
 quantidade total de alunos.
 '''
 
-soma_Aluno = 0
-lista_Aluno_Turma = []
+
+lista_aluno_turma = []
+soma_aluno = 0
 for i in range(4):
-    qtd_Alunos = int(input("Digite a quantidade de alunos na turma: "))
-    lista_Aluno_Turma.append(qtd_Alunos)
-    soma_Aluno += qtd_Alunos
-print(lista_Aluno_Turma)
-print(f"Quantidade total de alunos é de: {soma_Aluno}")
+    qtd_alunos = int(input("Digite a quantidade de alunos na turma: "))
+    lista_aluno_turma.append(qtd_alunos)
+    soma_aluno += qtd_alunos
+
+print(lista_aluno_turma)
+print(f"Quantidade total de alunos é de: {soma_aluno}")

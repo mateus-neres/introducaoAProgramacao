@@ -4,10 +4,14 @@ notas foram acima de 8.
 '''
 
 listaNota = []
-contNota = 0
+notaMaior8 = []
+
 for i in range(5):
     nota = float(input("Digite a nota: "))
     listaNota.append(nota)
+
+for nota in listaNota:
     if nota > 8:
-        contNota += 1
-print(f"Quantidade de notas maiores que 8: {contNota}")
+        notaMaior8.append(nota)
+    
+print(f"Quantidade de notas maiores que 8: {len(notaMaior8)}")
