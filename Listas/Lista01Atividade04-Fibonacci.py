@@ -6,11 +6,16 @@ depois some cada elemento com seu próximo, e exiba a lista original e a nova li
 
 lista = []
 listaSoma = []
+
 for i in range(5):
+
     numero = int(input("Digite um numero inteiro: "))
     lista.append(numero)
+
     if i >= 1:
         listaSoma.append(lista[i] + lista[i-1])
+
 listaSoma.append(lista[-1])
+
 print(lista)
 print(listaSoma)
