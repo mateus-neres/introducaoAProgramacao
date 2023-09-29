@@ -12,10 +12,10 @@ lista_teste_setores = ["RH","produção","RH","RH","produção","produção","al
 lista_teste_salario = [1800,1400,1800,1800,1400,1400,1600,1600,1400,1600]
 
 # Lista para armazenamento de dados
-lista_geral = []
-lista_RH_Almoxarifado = []
-adicional_total = 0
 
+
+adicional_total = 0
+lista_geral = []
 # Estrutura de repetição
 for i in range(10):
 
@@ -24,7 +24,9 @@ for i in range(10):
     salario = lista_teste_salario[i] # float(input("Digite o salario: "))
     lista_agrupamento = [setor,salario]
     lista_geral.append(lista_agrupamento)
+
     # Comando condicional para filtrar os setores com aumentos salariais
+lista_RH_Almoxarifado = []
 for i in range(10):
     if lista_geral[i][0] == "RH" or lista_geral[i][0] == "ALMOXARIFADO":
         lista_RH_Almoxarifado.append(lista_geral[i][1] * 1.2)

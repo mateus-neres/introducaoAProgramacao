@@ -8,3 +8,4 @@ a. A quantidade de vitórias de cada equipe
 b. A quantidade de empates registrados
 c. O curso da equipe vencedora da gincana
 '''
+

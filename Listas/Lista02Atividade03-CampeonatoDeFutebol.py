@@ -60,11 +60,13 @@ for i in range(15):
 
 media_Ponto_RJ = soma_Ponto_RJ / cont_RJ
 
-maior_ponto = lista_geral[0][2]
 
+maior_ponto = lista_geral[0][2]
+maior_ponto_time = 0
 for i in range(15):
     if lista_geral[i][2] > maior_ponto:
         maior_ponto = lista_geral[i][2]
+        maior_ponto_time = lista_geral[i][0]
 
 # Saidas de dados do desafio
 print(lista_geral)
@@ -72,4 +74,4 @@ print(f"Times de PE e PB com mais de 100 ponto: {lista_Time_PB_PE}.")
 print(f"O time {timeUsuario}, marcou {ponto_time_escolhido}.")
 print(f"A lista de pontuação dos times de MG são: {lista_pontos_MG}")
 print(f"A media dos pontos do RJ é: {media_Ponto_RJ}")
-print(f"O nome do time com maior pontuação é: {maior_ponto}")
+print(f"O nome do time com maior pontuação é: {maior_ponto_time}")
