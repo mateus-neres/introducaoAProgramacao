@@ -22,7 +22,6 @@ for i in range(5):
     agrupamento = [disciplina, nota_prova]
     resultados_bsi.append(agrupamento)
 
-for i in range(5):
     disciplina = str.upper(disciplina_lcc_teste[i])
     nota_prova = float(lcc_nota_teste[i])
     agrupamento = [disciplina, nota_prova]
