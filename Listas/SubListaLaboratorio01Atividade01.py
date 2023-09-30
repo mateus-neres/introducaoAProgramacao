@@ -95,4 +95,4 @@ print(lista_func__maior_que_media)
 
 print(FuncionariosHotel[0:2])
 print(FuncionariosHotel[2:-1])
-
+   
