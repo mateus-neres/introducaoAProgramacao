@@ -9,3 +9,4 @@ c. Lista [5][1] += Lista [0] [1] + Lista [2] [1]
 d. Lista.append ( [ Lista [4], Lista [1] ] )
 e. Lista [0] += [ Lista [5] [0] ] + [ Lista [2] [2] ]
 '''
+
