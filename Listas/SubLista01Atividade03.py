@@ -11,3 +11,9 @@ Exemplo de conteúdo da lista:
 Estados = [ [ "Paraíba", "Nordeste", 223, 3944000 ], [ "Goiás", "Centro-Oeste", 246, 6523000 ], [ "Pará",
 "Norte", 144, 8074000 ], ...]
 '''
+
+teste_estados = ['SP', 'MG', 'RJ', 'BA', 'RS', 'PR', 'PE', 'CE', 'PA', 'SC']
+teste_regiao = ['Sudeste', 'Sudeste', 'Sudeste', 'Nordeste', 'Sul', 'Sul', 'Nordeste', 'Nordeste', 'Norte', 'Sul']
+teste_municipios = [645, 853, 92, 417, 497, 399, 184, 184, 144, 295]
+teste_pop = [46065000, 21041000, 17046000, 15041000, 11048000, 11057000, 9062000, 9029000, 8069000, 7028000]
+
