@@ -11,14 +11,10 @@ quantidade de divisores que ele tem. (Dica: lembre-se de que não é possível d
 
 import bibNumeros
 
-
-numA = int(input())
-numB= numA
-
-a = bibNumeros.testaMultiplo4(numA)
-
-print(a)
-
-b = bibNumeros.contaDivisores(numB)
-
-print(b)
+teste1 = [4, 7, -16, 4, 5, 18, 0]
+for i in range(len(teste1)):
+    a = bibNumeros.testaMultiplo4(teste1[i])
+    b = bibNumeros.contaDivisores(teste1[i])
+    print(f"Numero testado: {teste1[i]}")
+    print(f"Divisivel por 4?: {a}")
+    print(f"Quantidade de divisões exatas: {b}")
