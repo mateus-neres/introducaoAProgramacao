@@ -12,3 +12,4 @@ retorna a quantidade de obras dele que existem na galeria
  Função consultaTipo  recebe como entrada o nome de uma obra e retorna
 seu tipo: Quadro ou Escultura
 '''
+
