@@ -6,9 +6,8 @@ as vogais podem aparecer acentuadas com  ́, ^, ` ou ~.)
 
 import bibLetras
 
-teste1 = ["A", "o", "G", "5", "ã"]
- 
-for i in range(len(teste1)):
-    vogal = str.lower(teste1[i])
-    print(vogal)
-    print(bibLetras.testaVogal(vogal))
+vogal = str.lower(input("Digite uma letra, para verificar se é vogal ou não: \n"))
+if bibLetras.testaVogal(vogal) == True:
+    print("verdadeiro")
+else:
+    print("falso")

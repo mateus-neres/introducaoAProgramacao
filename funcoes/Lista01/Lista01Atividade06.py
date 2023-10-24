@@ -4,8 +4,6 @@ questão 5, exiba quantas dessas letras são vogais.
 '''
 import bibLetras
 
-teste1 = ["P", "x", "á", "e", "S", "T", "q", "V", "õ", "i", "L", "U", "c", "m", "r", "Y", "K", "W"]
-
 contVogal = 0
 vogais = []
 

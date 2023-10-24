@@ -35,6 +35,6 @@ input ( )
 
 Objetivo: Receber dados do usuário
 Quantidade de parâmetros de entrada: 1
-Tipo(s) de parâmetro(s) de entrada: str
+Tipo(s) de parâmetro(s) de entrada: str, float, int...
 Tipo de retorno: str
 '''
