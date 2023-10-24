@@ -1,9 +1,9 @@
 def defineEstacao (A):
-    if A == "JANEIRO" or A == "DEZEMBRO" or A == "FERVEREIRO":
+    if A == "janeiro" or A == "dezembro" or A == "fervereiro":
         return "Inverno"
-    elif A == "MARÇO" or A == "ABRIL" or A == "MAIO":
+    elif A == "março" or A == "abril" or A == "maio":
         return "Primavera"
-    elif A == "JUNHO" or A == "JULHO" or A == "AGOSTO":
+    elif A == "junho" or A == "julho" or A == "agosto":
         return "Verão"
     else:
         return "Outono"
