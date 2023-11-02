@@ -1,11 +1,5 @@
-'''
-a) Uma função testaMultiplo4 que receba por parâmetro um número inteiro e retorne verdadeiro se
-ele for múltiplo de 4, ou falso caso contrário.
-
-
-b) Uma função contaDivisores que receba como parâmetro um número inteiro, e retorne a
-quantidade de divisores que ele tem. (Dica: lembre-se de que não é possível dividir por zero)
-'''
+'''a) Uma função testaMultiplo4 que receba por parâmetro um número inteiro e retorne verdadeiro se
+ele for múltiplo de 4, ou falso caso contrário.'''
 
 def testaMultiplo4 (A):
     if A % 4 == 0:
@@ -13,6 +7,9 @@ def testaMultiplo4 (A):
     else:
         return False
 
+'''b) Uma função contaDivisores que receba como parâmetro um número inteiro, e retorne a
+quantidade de divisores que ele tem. (Dica: lembre-se de que não é possível dividir por zero)
+'''
 def contaDivisores(A):
     contDiv = 0
     for i in range(A+1):

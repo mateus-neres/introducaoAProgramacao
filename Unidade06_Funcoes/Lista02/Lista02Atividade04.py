@@ -11,7 +11,7 @@ for i in range(6):
     mes = str.upper(input(f"Digite o {i+1}° mês:\n"))
     qtd_visita = int(input("Digiete a quantidade de visitante deste mês:\n"))
 
-    if mes_mais_visitado < qtd_visita:
+    if mes_mais_visitado < qtd_visita: 
         mes_mais_visitado = qtd_visita
         estacao = Ano.defineEstacao(mes)
 

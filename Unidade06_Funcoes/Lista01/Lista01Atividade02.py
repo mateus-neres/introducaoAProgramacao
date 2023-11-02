@@ -1,6 +1,5 @@
 #2) Crie uma biblioteca chamada bibNumeros, e crie nela:
 
-
 import bibNumeros
 
 '''a) Uma função testaMultiplo4 que receba por parâmetro um número inteiro e retorne verdadeiro seele for múltiplo de 4,

@@ -4,5 +4,5 @@ nome de um mês e retorne a estação do ano que ocorre naquele mês.'''
 
 import Ano
 
-mes = str.upper(input("Digite o mês que deseja verificar a estação: \n"))
+mes = str.lower(input("Digite o mês que deseja verificar a estação: \n"))
 print(Ano.defineEstacao(mes))

@@ -4,15 +4,10 @@ exibir o total de visitantes registrados na primavera.'''
 
 import Ano
 
-meses = []
 qtd_visita_primavera = 0  
 for i in range(6):
     mes = str.lower(input(f"Digite o {i+1}° mês:\n"))
     qtd_visita = int(input("Digite a quantidade visitantes nesse mês:\n"))
-
     if (Ano.defineEstacao(mes)) == "Primavera":
         qtd_visita_primavera += qtd_visita
-        meses.append(mes)
-
-print(meses)
 print(qtd_visita_primavera)
