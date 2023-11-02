@@ -44,37 +44,3 @@ def TestaOrdenacao(lista):
         if lista[i] > lista[i + 1]:
             return False
     return True
-    '''cont = 0
-    for i in range(len(lista)):
-        if lista[i - 1] <= lista[i]:
-            cont += 1
-    if len(lista) != 1 and len(lista) != 0:
-        if (cont + 1) == len(lista):
-            return True
-    else:
-        return False'''
-
-
-
-
-
-    
-
-    
-
-
-
-
-
-            
-    
-
-        
-
-
-
-
-
-
-
-
