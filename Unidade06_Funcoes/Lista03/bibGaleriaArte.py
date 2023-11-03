@@ -1,24 +1,20 @@
 '''bibGaleriaArte
- Função consultaPreco  recebe como entrada o título de uma obra e retorna
-seu valor em Reais
- Função consultaArtista  recebe como entrada o nome de uma obra e retorna
-o nome do artista responsável por ela
+
  Função consultaQuantObras  recebe como entrada o nome de um artista e
 retorna a quantidade de obras dele que existem na galeria
  Função consultaTipo  recebe como entrada o nome de uma obra e retorna
 seu tipo: Quadro ou Escultura'''
 
-import random
+#  Função consultaPreco  recebe como entrada o título de uma obra e retorna seu valor em Reais
+def consultaPreco(obra, lista):
+    valor_Obra = 0
+    for i in range(len(lista)):
+        if obra.upper() in lista[i][1]:
+            valor_Obra = lista[i][2]
+    return valor_Obra
 
-def consultaPreco (obra):
-    return random.randint(2,8) * random.choice([132.40, 275.81, 98.66])
-
-def consultaArtista (obra):
-    nome = random.choice(["Manoel Gomes", "Dênis Novaes", "Adélia Machado", "Patrícia Lisboa", "Leonardo Resende"])    
-    return nome
-
-def consultaQuantObras (artista):
-    return random.randint(0,5)
-
-def consultaTipo (obra):
-    return random.choice(["Quadro", "Escultura"])
+#  Função consultaArtista  recebe como entrada o nome de uma obra e retorna o nome do artista responsável por ela
+def consultaArtista(obra, lista):
+    for i in range(len(lista)):
+        if obra.upper() in lista[i][1]:
+            return lista[i][0]
