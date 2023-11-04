@@ -4,3 +4,7 @@ False, indicando se ela é ou não um palíndromo. (Dica: utilize a função cri
 Obs: Palíndromo é uma seqüência de caracteres, inclusive números, que apresenta a mesma
 escrita tanto da esquerda para a direita, como da direita para a esquerda (letras maiúsculas e
 minúsculas devem ser consideradas iguais). Ex: 'osso', 'asa', 'erre', 'radar', 'mirim', 'reviver'.'''
+
+from bibiLetras import TestaPalindromo
+str = str.lower(input(" Digite o texto "))
+print(TestaPalindromo(str))

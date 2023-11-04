@@ -40,3 +40,9 @@ def RemoveLetras (str):
         if letra.upper() != "K" and letra.upper() != "W" and letra.upper() != "Y":
             Novo_Texto += letra     
     return Novo_Texto
+
+def TestaPalindromo (str):
+    if str == Inverte(str):
+        return True
+    else:
+        return False
