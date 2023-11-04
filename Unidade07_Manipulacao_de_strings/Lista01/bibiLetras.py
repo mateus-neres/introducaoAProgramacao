@@ -19,3 +19,24 @@ def RemoveA(str):
         if i != "A":
             str_semA += i
     return str_semA
+
+def Inverte (str):
+    texto_invertido = str[::-1]
+    return texto_invertido
+
+def QtdePontuacao (str):
+    simbolo_ponto = [".", ",", ":", ";", "!", "?"]
+    contador = 0
+
+    for letra in str:
+        if letra in simbolo_ponto:
+            contador += 1 
+
+    return contador
+
+def RemoveLetras (str):
+    Novo_Texto = ""
+    for letra in str:
+        if letra.upper() != "K" and letra.upper() != "W" and letra.upper() != "Y":
+            Novo_Texto += letra     
+    return Novo_Texto
