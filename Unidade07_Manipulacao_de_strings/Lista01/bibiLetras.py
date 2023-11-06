@@ -46,3 +46,12 @@ def TestaPalindromo (str):
         return True
     else:
         return False
+
+def nomeMeio(nome_completo):
+    separaNome = nome_completo.split( )
+    nomeMeio = separaNome[1].upper()
+    return nomeMeio
+
+def ordenar(lista):
+    ordem = lista.sort()
+    return ordem
