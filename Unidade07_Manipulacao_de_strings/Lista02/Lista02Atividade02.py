@@ -4,3 +4,4 @@
 def contaPalavras(str):
     str = str.split(" ")
     return len(str)
+
