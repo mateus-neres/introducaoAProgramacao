@@ -2,6 +2,14 @@
 # e retorne a quantidade de palavras dela.
 
 def contaPalavras(str):
-    str = str.split(" ")
-    return len(str)
+    if str != "":
+        cont = 1
+    else:
+        cont = 0
+    for i in range(len(str)):
+        if str[i] == " ":
+            cont += 1
+    return cont
+a = str(input("Digite uma frase: \n"))
 
+print(contaPalavras(a))
