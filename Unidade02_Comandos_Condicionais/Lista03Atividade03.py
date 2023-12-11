@@ -12,8 +12,3 @@ premiados com uma troca de óleo. Escreva um programa para esse posto de modo qu
 como entrada o combustível escolhido e o valor em dinheiro que se deseja gastar, e informe o total de
 combustível abastecido e uma mensagem indicando se o cliente ganhou ou não a troca de óleo.
 '''
-
-gasolina = 2.53
-etanol = 2.09
-diesel = 1.
-
